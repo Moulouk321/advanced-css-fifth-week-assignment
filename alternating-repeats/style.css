@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100svh;
+  margin: 0;
+  background: #1a1a1a;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: #28a92b;
+  border-radius: 8px;
+  animation: slideAndRotate 2s linear 3 alternate forwards;
+}
+
+@keyframes slideAndRotate {
+  from {
+    animation-timing-function: ease-out;
+  }
+  to {
+    transform: translateX(calc(100vw - 100px)) rotate(360deg);
+    /* animation-timing-function: ease-out; */
+  }
+}
