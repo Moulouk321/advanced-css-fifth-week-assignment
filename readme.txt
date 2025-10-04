@@ -8,3 +8,6 @@ https://gsap.com/resources/getting-started/timelines#special-properties
 
 square-moving:
 https://gsap.com/resources/get-started/#canvas
+
+bouncing-ball:
+https://gsap.com/docs/v3/Eases/CustomBounce
